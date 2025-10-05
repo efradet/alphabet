@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blinkOrange {
+  0% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.0); }
+  40% { box-shadow: 0 0 0 6px rgba(249, 115, 22, 0.9); }
+  100% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.0); }
+}
+.blink-orange { animation: blinkOrange 0.9s ease-in-out 1; }
